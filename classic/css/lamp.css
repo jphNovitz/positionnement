@@ -1,0 +1,128 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body{
+    font-family:"Trebuchet MS", helvetica,Arial, sans-serif ;
+    font-size:12px;
+    background-color:#ddeeaa;
+    color:#000000;
+    text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+#main{
+    max-width:80vw;
+    margin : 1em auto;
+    border: 2px solid #ab4;
+    background-color:#FFF;
+}
+
+#top{
+    background-color: #98BF0C;
+    background-image: url(../img/particulier.jpg) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: inherit;
+    margin: 0 1px;
+    height: 330px;
+}
+
+nav {
+    padding-top:3em;
+}
+#top nav ul{
+    float:right;
+    margin-right: 4%;
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+}
+
+#top nav ul li {
+    background-color: #fff;
+    margin: .8em;
+    padding: .7em;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+#top nav ul li a{
+    background-color: inherit;
+    color: #5D7623;
+    text-decoration:none;
+}
+#top nav ul li:hover{
+    background-color: #5D7623;;
+
+}
+#top nav ul li:hover a:link{
+    color: #fff;
+    text-decoration: none;
+}
+#top nav ul li a:visited{
+    background-color: inherit;
+    color: #B2C121;
+    text-decoration: none;
+}
+
+#content{
+    background-image: url(../img/vert.gif);
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    color: #670B50;
+    padding: 10px 10px 10px 100px;
+}
+
+#content h2{
+    background: inherit;
+    background-image: url(../img/bullet.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: #B2C121;
+    padding :0 10px 4px 35px;
+    font-size: 2em;
+    border-bottom: solid 2px #B2C121; 
+
+}
+
+#content h3{
+    background: inherit;
+    color: #000;
+    font-size: 1.5em;
+}
+
+#bas{
+    margin-top: 5%;
+    background: inherit;
+    color: #B2C121;
+    text-align: center;
+    font-size: .9em;
+
+}
+nav #menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 950px) {
+    #top {
+        background-size: 60% auto;
+    }
+}
+@media screen and (max-width: 720px) {
+   nav #menu{
+        display: block;
+       float: right;
+    }
+    nav ul li{
+        display: none;
+    }
+    nav:hover ul li{
+        display: block;
+    }
+
+}
