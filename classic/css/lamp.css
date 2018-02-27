@@ -101,6 +101,9 @@ nav {
     font-size: 1.5em;
 }
 
+#content p, #content ul{
+    font-size: 1.2em;
+}
 #bas{
     margin-top: 5%;
     background: inherit;
@@ -129,6 +132,7 @@ nav #menu{
         height: 8vh;
         padding-top: 5px;
         overflow: hidden;
+        transition: all 10s ease;
     }
 
     nav:hover{
