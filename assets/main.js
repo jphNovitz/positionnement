@@ -1,3 +1,11 @@
+/*
+   Novitz Jean-Philippe
+   https://github.com/jphNovitz
+   2014-2024
+   Laissez-moi une * cela m'encouragerait
+*/
+
+
 document.addEventListener('DOMContentLoaded', function () {
     console.log("Le document est prêt !");
     if (window.innerWidth) {

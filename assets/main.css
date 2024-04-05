@@ -1,13 +1,22 @@
-/* HTML5 display-role reset for older browsers */
+/*
+   Novitz Jean-Philippe
+   https://github.com/jphNovitz
+   2014-2024
+   Laissez-moi une * cela m'encouragerait
+*/
+
+
+/* Reset display property for HTML5 semantic elements */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+/* General styles */
 body {
     font-family: "Trebuchet MS", helvetica, Arial, sans-serif;
     font-size: 16px;
     background-color: #ddeeaa;
-    color: #000000;
+    color: #000;
     text-align: justify;
 }
 
@@ -15,14 +24,16 @@ body {
     clear: both;
 }
 
+/* Main container */
 main {
     width: 100%;
     max-width: 1200px;
     margin: 1em auto;
     border: 2px solid #ab4;
-    background-color: #FFF;
+    background-color: #fff;
 }
 
+/* Header styles */
 header {
     background-color: #98BF0C;
     background-image: url(../img/particulier.jpg);
@@ -37,23 +48,20 @@ header {
     overflow: hidden;
 }
 
-
+/* Navigation styles */
 nav {
     background-color: #98BF0C;
-    padding-top: 3rem;
+    padding-top: 3em;
     margin-top: -100vh;
     transition: all 600ms ease;
     width: 100%;
     aspect-ratio: 1;
 }
 
-
 nav.show {
     margin-top: 0;
     height: 100vh;
-
 }
-
 
 nav.show ul {
     /*background-color: #D6F5AD;*/
@@ -62,7 +70,7 @@ nav.show ul {
 nav.show ul li {
     list-style-type: none;
     margin: .5em auto;
-    color: #000000;
+    color: #000;
     text-align: left;
     font-size: 1.5em;
     border-radius: 15px;
@@ -71,21 +79,20 @@ nav.show ul li {
 
 nav.show ul li a {
     background-color: inherit;
-    /*color: #5D7623;*/
-    color: #000000;
+    color: #000;
     text-decoration: underline;
 }
 
 nav.show ul li:hover {
-    background-color: #5D7623;;
-
+    background-color: #5D7623;
 }
 
-nav.show ul li:hover a:link {
+nav.show ul li:hover a {
     color: #fff;
     text-decoration: none;
 }
 
+/* Menu icon */
 #menu {
     display: block;
     float: right;
@@ -101,7 +108,7 @@ nav.show ul li:hover a:link {
 #menu .menu-stripes {
     width: 42px;
     height: 6px;
-    background-color: #ffffff;
+    background-color: #fff;
     display: block;
     border-radius: 10px;
     margin: 2px auto;
@@ -111,7 +118,7 @@ nav.show ul li:hover a:link {
     cursor: pointer;
 }
 
-
+/* Content styles */
 #content {
     padding: 1.5rem;
     color: #2e0526;
@@ -137,23 +144,22 @@ nav.show ul li:hover a:link {
     margin-bottom: 1.5rem;
 }
 
-#content p, #content ul {
+#content p {
     margin-top: 1.5rem;
     line-height: 1.5rem;
     font-size: 1.2em;
 }
 
+/* Footer styles */
 #bas {
     margin-top: 5%;
     background: inherit;
     color: #B2C121;
     text-align: center;
     font-size: .9em;
-
 }
 
 @media screen and (min-width: 950px) {
-
     header {
         aspect-ratio: 3;
         background-size: 50%;
@@ -165,7 +171,7 @@ nav.show ul li:hover a:link {
         display: none;
     }
 
-    header nav{
+    header nav {
         background-color: transparent;
         width: 50%;
         float: right;
@@ -189,10 +195,9 @@ nav.show ul li:hover a:link {
 
     header nav ul li:hover {
         background-color: #5D7623;
-
     }
 
-    header nav ul li:hover a:link {
+    header nav ul li:hover a {
         color: #fff;
         text-decoration: none;
     }
@@ -203,13 +208,11 @@ nav.show ul li:hover a:link {
         text-decoration: none;
     }
 
-
     #content {
         background-image: url(../img/vert.gif);
         background-position: 20px 20px;
         background-repeat: no-repeat;
         padding: 2rem 2rem 2rem calc(42px + 2rem);
-
     }
 
     #content p {
@@ -217,4 +220,3 @@ nav.show ul li:hover a:link {
         line-height: 1.2em;
     }
 }
-
