@@ -1,30 +1,40 @@
-/* HTML5 display-role reset for older browsers */
+/*
+   Novitz Jean-Philippe
+   https://github.com/jphNovitz
+   2014-2014
+   Laissez-moi une * cela m'encouragerait
+*/
+
+/* Reset display property for HTML5 semantic elements */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-body{
-    font-family:"Trebuchet MS", helvetica,Arial, sans-serif ;
-    font-size:12px;
-    background-color:#ddeeaa;
-    color:#000000;
+/* General styles */
+body {
+    font-family: "Trebuchet MS", helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #ddeeaa;
+    color: #000000;
     text-align: justify;
 }
 
-.clear{
+.clear {
     clear: both;
 }
-#main{
 
-    max-width:960px;
-    margin : 1em auto;
+/* Main content container */
+#main {
+    max-width: 960px;
+    margin: 1em auto;
     border: 2px solid #ab4;
-    background-color:#FFF;
+    background-color: #fff;
 }
 
-#haut{
+/* Header styles */
+#haut {
     background-color: #98BF0C;
-    background-image: url(../img/particulier.jpg) ;
+    background-image: url(../img/particulier.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 60%;
@@ -33,11 +43,8 @@ body{
     height: 330px;
 }
 
-nav {
-    padding-top:3em;
-}
-#haut nav ul{
-    float:right;
+#haut nav ul {
+    float: right;
     margin-right: 4%;
     display: inline-block;
     list-style-type: none;
@@ -46,32 +53,34 @@ nav {
 
 #haut nav ul li {
     background-color: #fff;
-    color: #000000;
+    color: #000;
     text-decoration: none;
     line-height: 1em;
     margin: .8em;
     padding: .7em;
     text-align: center;
     font-size: 1.2em;
-
 }
-#haut nav ul li a{
+
+#haut nav ul li a {
     background-color: inherit;
     color: #5D7623;
-    text-decoration:none;
+    text-decoration: none;
 }
-#haut nav ul li a:hover{
+
+#haut nav ul li a:hover {
     background-color: #fff;
     color: #406225;
     text-decoration: underline;
 }
-#haut nav ul li a:visited{
+
+#haut nav ul li a:visited {
     background-color: inherit;
     color: #B2C121;
-    text-decoration: none;
 }
 
-#content{
+/* Content styles */
+#content {
     background-image: url(../img/vert.gif);
     background-position: 20px 20px;
     background-repeat: no-repeat;
@@ -79,29 +88,23 @@ nav {
     padding: 10px 10px 10px 100px;
 }
 
-#content h2{
-    background: inherit;
-    background-image: url(../img/bullet.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+#content h2 {
+    background: inherit url(../img/bullet.gif) no-repeat top left;
     color: #B2C121;
-    padding :0 10px 4px 35px;
+    padding: 0 10px 4px 35px;
     font-size: 2em;
-    border-bottom: solid 2px #B2C121; 
-
+    border-bottom: solid 2px #B2C121;
 }
 
-#content h3{
-    background: inherit;
+#content h3 {
     color: #000;
     font-size: 1.5em;
 }
 
-#bas{
+/* Footer styles */
+#bas {
     margin-top: 5%;
-    background: inherit;
     color: #B2C121;
     text-align: center;
     font-size: .9em;
-
 }
