@@ -1,47 +1,101 @@
+<!--
+   Novitz Jean-Philippe
+   https://github.com/jphNovitz
+   2014-2024
+   Laissez-moi une * cela m'encouragerait
+-->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Lamparis - Recreation:Novitz Jean-Philippe</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/lamp.css" rel="stylesheet" type="text/css">
-        <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-    </head>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamparis - Recreation: Novitz Jean-Philippe</title>
+    <!-- Link to external CSS file -->
+    <link href="assets/main.css" rel="stylesheet" type="text/css">
+    <!-- Defer loading of JavaScript file -->
+    <script src="assets/main.js" defer></script>
+</head>
 
-    <body>
-        <div id="main">
-            <header id="haut">
-                <nav>
-                    <ul>
-                        <li><a href='#1'>Lien 1</a></li>
-                        <li><a href='#2'>Lien 2</a></li>
-                        <li><a href='#3'>Lien 3</a></li>
-                        <li><a href='#4'>Lien 4</a></li>
-                    </ul>
-                </nav>
-                <div class="clear"></div>
-            </header>
-            <section id="content">
-
-                <h2>Premier titre de la page.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim commodo leo, a viverra ex semper nec. Suspendisse pellentesque erat id ligula maximus sodales. Donec nec felis eu magna gravida tempus. Integer volutpat odio vel dolor mattis, vitae dictum nulla molestie. Integer vel ultrices orci, id volutpat eros. Mauris sed ligula aliquet, volutpat nibh nec, pretium ex. Mauris sit amet elit eget ligula fringilla tincidunt. Mauris arcu ligula, malesuada eu nisi non, scelerisque dignissim quam. In lacinia rhoncus sem.</p>
-                <h2>Un autre titre de la page.</h2>
-                <p>In semper sed ex sit amet maximus. Aenean vitae nisi elit. Vestibulum porta fermentum magna eu dictum. Nunc sed blandit elit. Suspendisse porta pharetra odio. Nam in arcu orci. Nulla hendrerit justo sed nisi rutrum, quis tincidunt ipsum molestie. Nulla egestas aliquet facilisis. In vel tellus sit amet sapien volutpat vestibulum. Etiam porttitor erat sollicitudin velit convallis convallis.</p>
-                <h3>Sous-titre de la page.</h3>
-                <p>Nunc viverra diam sed imperdiet sollicitudin. Mauris rutrum tempor condimentum. Aenean at purus iaculis, euismod purus nec, pretium lacus. Suspendisse eu erat faucibus, congue ante eu, pellentesque dolor. Quisque ullamcorper quis elit vitae tincidunt. Pellentesque pulvinar placerat purus, ac consectetur dui tincidunt a. Morbi tempus nulla eget massa luctus sollicitudin. Suspendisse eget feugiat arcu. Praesent id egestas mi. Nullam ex turpis, condimentum sed tellus nec, dictum faucibus lorem. Duis pretium mauris eget suscipit malesuada.</p>
-                <h3>Autre Sous-titre.</h3>
-                <p>Integer bibendum lobortis diam ac pretium. In finibus nunc enim, et tempus orci convallis vel. Fusce rhoncus commodo nulla quis elementum. Fusce libero quam, volutpat et finibus sit amet, mollis quis ligula. Suspendisse potenti. Vivamus mi ante, pellentesque vitae eros nec, feugiat suscipit justo. Integer aliquam arcu sit amet iaculis malesuada. Vivamus placerat velit non convallis tempus. Donec elementum odio id quam porttitor, non dictum turpis vehicula.</p> 
-
-                <p>Nunc viverra diam sed imperdiet sollicitudin. Mauris rutrum tempor condimentum. Aenean at purus iaculis, euismod purus nec, pretium lacus. Suspendisse eu erat faucibus, congue ante eu, pellentesque dolor. Quisque ullamcorper quis elit vitae tincidunt. Pellentesque pulvinar placerat purus, ac consectetur dui tincidunt a. Morbi tempus nulla eget massa luctus sollicitudin. Suspendisse eget feugiat arcu. Praesent id egestas mi. Nullam ex turpis, condimentum sed tellus nec, dictum faucibus lorem. Duis pretium mauris eget suscipit malesuada.</p>
-            </section>
-
-            <footer id="bas">
-                <p> Html - mise en forme css &copy <a href="http://www.isl.be">isl.be</a>
-                    <br />Section Webdevelopper, cours de réalisation de sites Internet.  Reproduction de l'interface Lamparis, fluide.
-                    <br />2014-2015 Novitz Jean-Philippe</p>
-            </footer>
-
+<body>
+<main>
+    <header>
+        <!-- Menu icon -->
+        <div id="menu">
+            <span class="menu-stripes"></span>
+            <span class="menu-stripes"></span>
+            <span class="menu-stripes"></span>
         </div>
-    </body>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href='#'>Ancienne version</a></li>
+                <li><a href='#'>Classique responsive</a></li>
+                <li><a href='#'>Bootstrap</a></li>
+                <li><a href='#'>Flex</a></li>
+                <li><a href='#'>Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Clear fix -->
+        <div class="clear"></div>
+    </header>
+
+    <section id="content">
+        <h2>Lamparis ?</h2>
+        <p>Il s'agit simplement d'une exercice du cours 'création site web statique' suivi à l'Institut Saint-Laurent
+            De promotion sociale de Liège.</p>
+        <p>Le but du jeux est de fournir à l'élève un document pdf avec le visuel, lui demander de recréer ce visuel en
+            html/css.
+            Ce travaile a été fait entre 2014 et 2015 et, avec le recule, je suis assez satisfait de ce que j'ai fait à
+            l'époque.
+            <br/>Je me rends compte également que j'ai évolué depuis. Je n'avait encore la notion de responsive, mobile
+            first.
+            Je n'utilisait pas bootstrap et je ne connaissais pas encore flex.
+        </p>
+        <h2>Une étude de cas.</h2>
+        <p>Nous sommes en 2018, je reprends cet exercice appliquant plusieurs techniques:</p>
+        <ul>
+            <li>le classique, être responsive en respectant le flux</li>
+            <li>Positionner les éléments en utilisant Bootstrap.</li>
+            <li>Utiliser flex à chaque fois que possible.</li>
+        </ul>
+        <p>Mon objectif est d'obtenir plusieur fois le même résultat et de faire des comparaisons même si je suis
+            conscient
+            que dans la réalité on utilisera pas une technique mais un mélange en fonction de leurs
+            caractéristiques.</p>
+        <h2>Un autre titre de la page.</h2>
+        <p>In semper sed ex sit amet maximus. Aenean vitae nisi elit. Vestibulum porta fermentum magna eu dictum. Nunc
+            sed blandit elit. Suspendisse porta pharetra odio. Nam in arcu orci. Nulla hendrerit justo sed nisi rutrum,
+            quis tincidunt ipsum molestie. Nulla egestas aliquet facilisis. In vel tellus sit amet sapien volutpat
+            vestibulum. Etiam porttitor erat sollicitudin velit convallis convallis.</p>
+        <h3>Sous-titre de la page.</h3>
+        <p>Nunc viverra diam sed imperdiet sollicitudin. Mauris rutrum tempor condimentum. Aenean at purus iaculis,
+            euismod purus nec, pretium lacus. Suspendisse eu erat faucibus, congue ante eu, pellentesque dolor. Quisque
+            ullamcorper quis elit vitae tincidunt. Pellentesque pulvinar placerat purus, ac consectetur dui tincidunt a.
+            Morbi tempus nulla eget massa luctus sollicitudin. Suspendisse eget feugiat arcu. Praesent id egestas mi.
+            Nullam ex turpis, condimentum sed tellus nec, dictum faucibus lorem. Duis pretium mauris eget suscipit
+            malesuada.</p>
+        <h3>Autre Sous-titre.</h3>
+        <p>Integer bibendum lobortis diam ac pretium. In finibus nunc enim, et tempus orci convallis vel. Fusce rhoncus
+            commodo nulla quis elementum. Fusce libero quam, volutpat et finibus sit amet, mollis quis ligula.
+            Suspendisse potenti. Vivamus mi ante, pellentesque vitae eros nec, feugiat suscipit justo. Integer aliquam
+            arcu sit amet iaculis malesuada. Vivamus placerat velit non convallis tempus. Donec elementum odio id quam
+            porttitor, non dictum turpis vehicula.</p>
+
+        <p>Nunc viverra diam sed imperdiet sollicitudin. Mauris rutrum tempor condimentum. Aenean at purus iaculis,
+            euismod purus nec, pretium lacus. Suspendisse eu erat faucibus, congue ante eu, pellentesque dolor. Quisque
+            ullamcorper quis elit vitae tincidunt. Pellentesque pulvinar placerat purus, ac consectetur dui tincidunt a.
+            Morbi tempus nulla eget massa luctus sollicitudin. Suspendisse eget feugiat arcu. Praesent id egestas mi.
+            Nullam ex turpis, condimentum sed tellus nec, dictum faucibus lorem. Duis pretium mauris eget suscipit
+            malesuada.</p>
+    </section>
+
+    <footer id="bas">
+        <!-- Footer section -->
+        <p> Html - mise en forme css &copy <a href="http://www.isl.be">isl.be</a>
+            <br/>Section Webdevelopper, cours de réalisation de sites Internet. Reproduction de l'interface Lamparis,
+            fluide.
+            <br/>2014-2015 Novitz Jean-Philippe</p>
+    </footer>
+</main>
+</body>
 </html>
